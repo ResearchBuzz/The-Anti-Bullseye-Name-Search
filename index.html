@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>The Anti-Bullseye Name Search</title>
+    </head>
+<body>
+    <div>
+      <h2>
+        The Anti-Bullseye Name Search 
+      </h2>
+      <h3>
+       
+        Most names in English are expressed in news articles and other places like this: Firstname Lastname, or possibly Firstname Middlename Lastname.
+        However, it isn't the only pattern used when writing a name. <br><br>
+        TABNS takes a name and generates a Google search that searches for the name in reverse order (Lastname Firstname) <i>and specifically excludes the most common expression of firstname lastname.</i>
+        
+        It changes the tenor of the search results completely, surfacing many more legal- and data- based results. Try it yourself. 
+   
+        <br><br>If you find yourself getting too many irrelevant results, use the keywords field to add a few single-word modifiers that describe the person broadly. 
+        For example, for Jimmy Carter you might enter <i>President</i> and <i>Georgia</i>. For Annie Lennox you might enter <i>music</i> and <i>Scotland</i>.
+        <br><br>
+        In addition to flipping the name search, the Anti-Bullseye also eliminates a lot of big sites that tend to clutter up search results, including Pinterest, eBay, Amazon, LinkedIn, Facebook, and AbeBooks. 
+        
+      </h3>
+      
+      
+         <label>First Name</label>
+         <input type="text" class="firstName" value="Marilyn"><br>  
+ 
+         <label>Last Name</label>
+         <input type="text" class="lastName" value="Monroe"><br><br>
+      
+         <label>Add a few single-word modifiers relevant to the person if you're getting too many irrelevant results. </label>
+         <input type="text" class="keywrds"><br>
+      <br>
+      <label>MUTE THE MIGHTY: Are you finding that your results are getting overwhelmed by someone more famous with the same surname? Enter their 
+        first name here and their full name will be excluded from the search as well (If you're searching for John Smith and you enter David in this box, your search will also exclude the name David Smith.)
+       </label><br>
+        <input type="text" class="mute"><br><br>
+      
+         <input type="button" value="Go" name="submit_name" id="go_button" onclick="name_search()">
+      
+      
+       
+     </div>
+    
+     
+     <script src="TABNS.js"></script>
+     
+   </body>
